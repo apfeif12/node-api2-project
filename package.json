@@ -3,8 +3,7 @@
   "version": "0.0.1",
   "scripts": {
     "start": "node index.js",
-    "server": "nodemon index.js",
-    "test": "cross-env NODE_ENV=testing jest --watch --verbose --runInBand --silent"
+    "server": "nodemon index.js"
   },
   "dependencies": {
     "dotenv": "^8.2.0",
