@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "scripts": {
     "start": "node index.js",
-    "server": "nodemon index.js"
+    "server": "nodemon index.js",
+    "heroku-post-build": "cd client && npm i && npm run build"
   },
   "dependencies": {
     "dotenv": "^8.2.0",
